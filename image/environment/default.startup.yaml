@@ -2,7 +2,7 @@
 # This image allows you to set up, tarball or tarball-incremental method
 # but other methods can be used and configured by setting directly backup manager
 # envirnonment variables BM_*
-BACKUP_MANAGER_ARCHIVE_METHOD: tarball
+BACKUP_MANAGER_ARCHIVE_METHOD: tarball pipe
 
 BACKUP_MANAGER_TARBALL_DIRECTORIES: /data-to-backup /data-to-backup2
 
